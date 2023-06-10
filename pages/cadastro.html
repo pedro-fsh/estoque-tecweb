@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/icone.png">
+</head>
+
+<body>
+    <div class="container">
+        <form action="../lib/cadastrar.php" class="formulario" method="post">
+            <h2><img src="../img/icone.png" alt="Uma caixa"></h2>
+            <input type="text" name="nome" class="campo" placeholder="👤 Nome Completo">
+            <input type="email" name="email" class="campo" placeholder="✉️ E-Mail">
+            <input type="password" name="senha" class="campo" placeholder="🔒 Senha">
+            <input type="password" name="confirma" class="campo" placeholder="🔒 Confirmar Senha">
+            <input type="submit" name="enviar" class="enviar" value="Criar">
+        </form>
+        <div class="links">
+            <a href="../index.html">Já tenho conta</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/icone.png">
+</head>
+
+<body>
+    <div class="container">
+        <form action="./lib/autenticacao.php" class="formulario-login" id="formulario-login" method="post">
+            <h2><img src="./img/icone.png" alt="Uma caixa"></h2>
+            <input type="email" name="email" class="campo" placeholder="✉️ E-Mail">
+            <input type="password" name="senha" class="campo" placeholder="🔒 Senha">
+            <input type="submit" name="enviar" class="enviar" value="Entrar">
+        </form>
+        <div class="links">
+            <a href="./pages/cadastro.html">Cadastrar</a>
+            <a href="./pages/recuperacao.html">Esqueci a senha</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+@media only screen and (min-width: 767px) {
+    #barra-lateral {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #FFD164;
+    }
+
+    #pesquisa {
+        margin-top: 80px;
+    }
+    
+    h3 {
+        margin-top: 18px;
+        color: #FFD164;
+    }
+
+    #barra-usuario {
+        background-color: #FFD164;
+        
+    }
+    
+    #barra-usuario h2 {
+        color: white;
+        padding: 10px;
+        font-size: 40px;
+    }
+    
+    #barra-perfil h2{
+        color: #FFD164;
+        padding: 10px;
+        font-size: 40px;
+    }
+    
+    #sair {
+        margin-top: auto;
+    }
+    
+    a {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-shadow: 0 0 2px rgb(0, 0, 0);
+    }
+    
+    #perfil {
+        color: white;
+    }
+    
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tabela {
+        margin-top: 10px;
+    }
+    
+    #conteudo img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 30px auto;
+    }
+    
+    #campos {
+        display: flex;
+    }
+    
+    .vr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #campos input {
+        width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 766px) {
+
+    #barra-usuario {
+        display: none;
+    }
+    
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    #conteudo img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 30px auto;
+        margin-top: 70px;
+    }
+
+    #barra-perfil {
+        display: none;
+    }
+
+    .vr {
+        display: none;
+    }
+
+    #barra-lateral {
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFD164;
+        height: fit-content;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+    }
+
+    #barra-lateral img {
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-weight: bold;
+        text-shadow: 0 0 2px rgb(0, 0, 0);
+        margin: auto auto;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    #cont-barra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #campos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

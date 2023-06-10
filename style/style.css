@@ -1,0 +1,239 @@
+@media only screen and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Helvetica", "Arial", sans-serif;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container h2 {
+        margin: auto;
+        margin-top: 15%;
+        margin-bottom: 30px;
+    }
+
+    .formulario, .formulario-login {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .campo {
+        height: 45px;
+        margin: 10px 10px;
+
+        border-radius: 20px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.39);
+
+        padding: 10px;
+        background-color: #d3ca9844;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.29);
+
+        font-size: 16px;
+        color: #555;
+    }
+
+    .enviar {
+        height: 45px;
+        margin: 25px 10px;
+        margin-bottom: 10px;
+
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.29);
+
+        color: white;
+        background-color: #FFD164;
+
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .links a {
+        color: #FFD164;
+        margin: auto;
+    }
+
+    .enviar:hover {
+        background-color: #bd8c1b;
+    }
+
+    p {
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgba(211, 211, 211, 0.432);
+        font-family: "Helvetica", "Arial", sans-serif;
+    }
+
+    .formulario-recuperacao {
+        margin: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .formulario-perguntas {
+        margin: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .formulario-perguntas h3 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    .container {
+        background-color: white;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+        display: flex;
+        height: 500px;
+        width: 400px;
+        margin: auto;
+        
+        border-radius: 20px;
+    
+        justify-content: center;
+        flex-direction: column;
+
+        position: absolute;
+        top: 45%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+
+    .container h2 {
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 20px 20px;
+    }
+    
+    .formulario, .formulario-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 80%;
+        margin: auto;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .formulario-login, .formulario-recuperacao, .formulario-perguntas img {
+        margin-top: 0px;
+    }
+
+    .formulario-recuperacao, .formulario-perguntas input {
+        margin: 10px auto;
+    }
+
+    .formulario-recuperacao, .formulario-perguntas input.enviar {
+        margin-top: 0px;
+    }
+    
+    .links {
+        margin: auto;
+        margin-top: 2px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .campo {
+        width: 90%;
+        height: 45px;
+        margin: 8px 10px;
+    
+        border-radius: 20px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.39);
+    
+        padding: 10px;
+        background-color: #d3ca9844;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.29);
+    
+        font-size: 16px;
+        color: #555;
+    }
+    
+    .enviar {
+        width: 90%;
+        height: 45px;
+        margin: 8px 10px;
+    
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.29);
+    
+        color: white;
+        background-color: #FFD164;
+    
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    
+    .links a {
+        color: #FFD164;
+        margin: auto;
+    }
+    
+    .enviar:hover {
+        background-color: #bd8c1b;
+    }    
+
+    p {
+        margin: 10px auto;
+    }
+}
