@@ -39,7 +39,6 @@ if (isset($_POST['enviar'])) { // Se o formulário foi enviado
     // Tenta inserir os dados
     try {
         mysqli_query($conex, $query);
-        echo "<script>alert('Conta cadastrada com sucesso!');</script>";
     } catch (Exception $e) {
         echo "<script>
                 alert('E-mail já cadastrado'); 
